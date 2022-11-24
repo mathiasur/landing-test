@@ -120,7 +120,6 @@ button:hover {
     display: flex;
     justify-content: center;
     width: 100vw;
-    background-color: lightgray;
     height: 450px;
     text-align: center;
     align-items: center;
@@ -156,3 +155,30 @@ h2 {
 .card p {
     font-size: 18px;
 }
+
+/* ***************QUOTE*************** */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #E5E7EB;
+    width: 100vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+span {
+    margin-left: 470px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ***************FOOTER*************** */
+
