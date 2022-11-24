@@ -17,7 +17,7 @@ body {
 .header-container {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background-color: #1F2937;
 }
 
@@ -109,7 +109,7 @@ button:hover {
 }
 
 .image {
-    background-color: blue;
+    background-color: #1d70f5;
     flex: 1;
 }
 
@@ -119,7 +119,7 @@ button:hover {
 .information-container {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 450px;
     text-align: center;
     align-items: center;
@@ -165,7 +165,7 @@ h2 {
     align-items: center;
     height: 400px;
     background-color: #E5E7EB;
-    width: 100vw;
+    width: 100%;
 }
 
 .quote {
@@ -185,7 +185,7 @@ span {
 
 
 .signUp-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     height: 400px;
     justify-content: center;
@@ -222,4 +222,20 @@ h3 {
     color: #E5E7EB;
     font-weight: bolder;
     border-radius: 10px;
+}
+
+/* ***************FOOTER*************** */
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 24px;
+    color: #F9FAF8;
 }
